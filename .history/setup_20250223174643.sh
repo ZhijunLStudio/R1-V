@@ -11,7 +11,7 @@ pip install flash-attn --no-build-isolation
 # vLLM support 
 pip install vllm==0.7.2
 
-# fix transformers version(fix data type inconsistency)
+# fix transformers version
 pip install git+https://github.com/huggingface/transformers.git@8ee50537fe7613b87881cd043a85971c85e99519
 
 # fix deepspeed version
